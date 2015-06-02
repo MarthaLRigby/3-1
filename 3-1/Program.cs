@@ -16,6 +16,12 @@ namespace _3_1
             char c = 'z';
             string s = "The quick brown fox jumped over the lazy dogs.";
             Console.WriteLine(i + " " + f + " " + d + " " + c + " " + s);
+            i = 25;
+            f = 100.3F;
+            d = 98765.4321;
+            c = 'M';
+            s = "A quick movement of the enemy will jeopardise six gun boats";
+            Console.WriteLine(i + " " + f + " " + d + " " + c + " " + s);
         }
     }
 }
